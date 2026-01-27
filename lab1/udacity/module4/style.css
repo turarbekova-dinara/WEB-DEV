@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(245, 247, 252);
+    color: rgb(40, 40, 70);
+}
+
+nav {
+    background-color: rgb(90, 120, 200);
+    padding: 12px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+section {
+    margin: 40px 10%;
+}
+
+ul {
+    list-style: square;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid rgb(200, 200, 220);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(200, 200, 220);
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(90, 120, 200);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
