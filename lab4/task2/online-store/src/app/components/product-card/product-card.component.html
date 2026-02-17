@@ -1,0 +1,65 @@
+<div class="card">
+
+    <div class="image-wrapper">
+        <img 
+          [src]="selectedImage" 
+          alt="{{ product.name }}" 
+          class="main-image"
+        />
+      </div>
+      
+      <div class="thumbnails">
+        <img 
+          *ngFor="let img of product.images"
+          [src]="img"
+          (click)="changeImage(img)"
+          [class.active]="img === selectedImage"
+        />
+      </div>
+      
+    <h2>{{ product.name }}</h2>
+  
+    <p class="description">
+      {{ product.description }}
+    </p>
+  
+    <div class="price">
+      {{ product.price }} ₸
+    </div>
+  
+    <div class="rating">
+      ⭐ {{ product.rating }}
+    </div>
+  
+    <div class="buttons">
+        <a 
+            [href]="product.link" 
+            target="_blank"
+            class="kaspi-btn"
+        >
+        View on Kaspi
+        </a>
+
+      
+        <div class="share-buttons">
+          <a
+            [href]="shareWhatsApp()"
+            target="_blank"
+            class="whatsapp"
+          >
+            WhatsApp
+          </a>
+      
+          <a
+            [href]="shareTelegram()"
+            target="_blank"
+            class="telegram"
+          >
+            Telegram
+          </a>
+        </div>
+      </div>
+           
+      
+  </div>
+  
