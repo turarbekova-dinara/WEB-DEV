@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: rgb(214, 138, 138);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+}
+
+.categories-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.categories-wrapper button {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid #dcdde1;
+  background: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.categories-wrapper button:hover {
+  background: red;
+  color: white;
+  border-color: rgb(107, 32, 32);
+}
+
+.welcome {
+  text-align: center;
+  font-size: 18px;
+  margin: 30px 0;
+  color: gray;
+}

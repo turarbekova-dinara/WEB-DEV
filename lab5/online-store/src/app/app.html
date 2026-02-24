@@ -1,0 +1,22 @@
+<h1> -Online Store- </h1>
+
+<h2>categories</h2>
+
+<div class="categories-wrapper">
+  <button
+    *ngFor="let c of categories"
+    (click)="selectCategory(c.id)">
+    {{ c.name }}
+  </button>
+</div>
+
+<hr>
+
+<div *ngIf="!selectedCategoryId" class="welcome">
+  Please select a category
+</div>
+
+<app-product-list
+  [products]="filteredProducts"
+  (delete)="removeProduct($event)">
+</app-product-list>
