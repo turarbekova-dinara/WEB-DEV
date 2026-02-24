@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(239, 238, 255);
+    h4{
+        color: rgb(32, 32, 219);
+        font-family: Arial;
+        font-size: 20px;
+    }
+
+    p{
+        color: red;
+        font-size: 20px;
+        border: 5px solid powderblue;
+        padding: 10px;
+        margin: 30px;
+    } 
+
+    .important{
+        color: blue;
+        font-size: 30px;
+        border: 5px dashed rgb(134, 138, 32);
+        padding: 30px;
+        margin: 10px;
+    }
+
+    #text {
+        color: rgb(213, 130, 15);
+        font-size: 15px;
+        border: 9px double rgb(134, 138, 32);
+        padding: 20px;
+        margin: 100px;
+    }
+
+    p[title] {
+        color: green;
+        border: 19px groove rgb(134, 138, 32);
+    }
+
+    /*
+a:link — барылмаған
+a:visited — барылған
+a:hover — үстіне апарғанда
+a:active — басып жатқанда
+    */
+    a:hover {
+        color: green;
+        text-decoration: underline;
+    }
+
+    a {
+        background-color: red;
+        color: white;
+        padding: 15px 25px;
+        display: inline-block;
+    }
+
+/*Table*/
+    table, th, td {
+        border: 1px solid black;
+    }
+    
+    table, th, td {
+        border-collapse: collapse;
+    }
+    
+    th, td {
+        border-style: dotted; /* dashed, solid, double, none */
+        border-color: #96D4D4;
+        border-radius: 10px;
+    }
+
+    /*Padding*/
+    th, td {
+        padding: 15px;
+    }
+    th, td {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+
+    /*Cell Spacing*/
+    table {
+    border-spacing: 30px;
+    }
+
+    /*Table - Zebra Stripes*/
+    tr:nth-child(even) {
+        background-color: #D6EEEE;
+    }
+    /*Table - Vertical Zebra Stripes*/
+    td:nth-child(even), th:nth-child(even) {
+        background-color: #eee1d6;
+    }
+
+    /*Vertical and Horizontal Zebra Stripes
+    tr:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+    }
+      
+    th:nth-child(even),td:nth-child(even) {
+        background-color: rgba(150, 212, 212, 0.4);
+    }
+    */
+
+    tr {
+        border-bottom: 1px solid #ddd;
+    }
+
+    tr:hover {background-color: #41a2a2;}
+
+    ul {
+        list-style-type: none;
+    }
+    li {
+        float: left;
+      }
+
+    
+    div {
+        width: 300px;
+        margin: auto;
+    }
+            
+    /*
+    Float:
+.mycontainer div {
+  width: 33%;
+  float: left;
+}
+    Inline-block:
+div {
+  width: 30%;
+  display: inline-block;
+}
+    Flex:
+.mycontainer {
+  display: flex;
+}
+.mycontainer > div {
+  width: 33%;
+}
+    Grid:
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+  */
+
+
+
+    /*CLASS:*/
+    .city {
+        background-color: tomato;
+        color: white;
+      }
+    
+    .city {
+        padding: 20px;
+        border: 8px solid rgb(220, 69, 69);
+      }
+      
+    .city {
+        padding: 20px;
+        border: 2px solid black;
+    }
+
+    .note {
+        color: rgb(0, 174, 255);
+        font-weight: bold;
+    }
+      
+    .city {
+        color: white;
+    }
+    .main {
+        font-size: 30px;
+    }
+    
+    #myHeader {
+        background-color: lightblue;
+        text-align: center;
+      }
+      
+      
+} 
+
+/* 
+Рамкалар:
+solid	тұтас
+dashed	үзік
+dotted	нүктелі
+double	қос
+groove	ойық
+ridge	3D
+inset	ішке
+outset	сыртқа
+none	жоқ
+*/
+  

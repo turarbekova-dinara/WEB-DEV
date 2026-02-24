@@ -1,0 +1,11 @@
+<div>
+  <app-product-card
+    *ngFor="let product of products"
+    [product]="product"
+    (delete)="removeProduct($event)">
+  </app-product-card>
+
+  <p *ngIf="products.length === 0">
+    No products in this category
+  </p>
+</div>

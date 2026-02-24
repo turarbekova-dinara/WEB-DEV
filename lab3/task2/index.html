@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <span>ToDo List</span>
+  </header>
+
+  <main class="wrapper">
+    <h1>ToDo List</h1>
+
+    <form id="todoForm" class="form">
+      <input
+        type="text"
+        id="todoInput"
+        placeholder="New Task"
+      />
+      <button type="submit">Add</button>
+    </form>
+
+    <ul id="todoList" class="list">
+      <!-- items added by JS -->
+    </ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

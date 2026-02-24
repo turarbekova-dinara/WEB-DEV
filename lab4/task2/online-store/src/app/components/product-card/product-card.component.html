@@ -1,0 +1,21 @@
+<div>
+  <h2>{{ product.name }}</h2>
+
+  <p>{{ product.description }}</p>
+  <p>Price: {{ product.price }} ₸</p>
+  <p>Rating: ⭐ {{ product.rating }}</p>
+
+  <a [href]="product.link" target="_blank">
+    View on Kaspi
+  </a>
+
+  <br><br>
+
+  <button (click)="like()">
+    ❤️ {{ product.likes }}
+  </button>
+
+  <button (click)="onDelete()">
+    Delete
+  </button>
+</div>
