@@ -1,0 +1,42 @@
+.album-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    max-height: 350px;
+    font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 100px auto;
+
+    font-size: 30px;
+    border: 1px solid #f2eaea;
+    padding: 12px;
+    background-color: #cdb874;
+    border-radius: 10px;
+    color: #161624;
+    overflow-y: auto;
+
+}
+
+input {
+  background-color: #d6dda0;
+  border: none;
+  padding: 4px;
+  font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #153450;
+  margin-top: 7px;
+}
+
+.save {
+  background-color: #bc341f;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  margin: 7px 0;
+}
+
+.back {
+  background-color: #6a4eb1;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+}

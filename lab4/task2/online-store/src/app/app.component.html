@@ -1,0 +1,14 @@
+<div *ngFor="let category of categories">
+    <button (click)="selectCategory(category)">
+      {{ category.name }}
+    </button>
+  </div>
+  
+  <app-product-list
+    *ngIf="selectedCategory"
+    [products]="filteredProducts">
+  </app-product-list>
+  
+  <p *ngIf="!selectedCategory">
+    Please select a category
+  </p>

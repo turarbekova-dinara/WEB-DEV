@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 venv/
 __pycache__/
 *.pyc
 db.sqlite3
+=======
+node_modules/
+dist/
+.DS_Store
+>>>>>>> fd7a7ae7775e2596acf71d2c07775acb32dcee43

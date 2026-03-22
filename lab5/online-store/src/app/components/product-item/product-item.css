@@ -1,0 +1,125 @@
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.main-img {
+  width: 100%;
+  height: 170px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.thumbs {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.thumb {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #eee;
+  transition: 0.2s;
+}
+
+.thumb:hover {
+  border-color: #6c5ce7;
+}
+
+.description {
+  font-size: 13px;
+  color: #777;
+  min-height: 40px;
+  margin: 8px 0;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2ecc71;
+}
+
+.rating {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #f1c40f;
+}
+
+.kaspi-btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 18px;
+  background: blue;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.kaspi-btn:hover {
+  background: red;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.whatsapp,
+.telegram {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.whatsapp {
+  background: #25D366;
+}
+
+.telegram {
+  background: #0088cc;
+}
+
+.whatsapp:hover,
+.telegram:hover {
+  opacity: 0.8;
+}
+
+.like-btn {
+  margin-top: 8px;
+  background: #ff7675;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  margin-top: 8px;
+  margin-left: 8px;
+  background: #2d3436;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}

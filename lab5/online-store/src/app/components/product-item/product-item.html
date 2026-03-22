@@ -1,0 +1,64 @@
+<div class="card">
+
+    <!-- Үлкен сурет -->
+    <img class="main-img" [src]="selectedImage" alt="product">
+  
+    <!-- Кіші суреттер -->
+    <div class="thumbs">
+      <img 
+        *ngFor="let img of product.images"
+        [src]="img"
+        (click)="changeImage(img)"
+        class="thumb">
+    </div>
+  
+    <h3>{{ product.name }}</h3>
+  
+    <p class="description">{{ product.description }}</p>
+  
+    <!-- Баға -->
+    <p class="price">{{ product.price }} ₸</p>
+  
+    <!-- Рейтинг -->
+    <div class="rating">
+        <span class="stars">
+          ★★★★★
+        </span>
+        <span class="rate-number">
+          {{ product.rating }}
+        </span>
+    </div>
+  
+    <!-- Kaspi -->
+    <a [href]="product.link" target="_blank" class="kaspi-btn">
+      View on Kaspi
+    </a>
+  
+    <!-- Social -->
+    <div class="social-buttons">
+      <a 
+        [href]="'https://wa.me/?text=' + product.link" 
+        target="_blank"
+        class="whatsapp">
+        WhatsApp
+      </a>
+  
+      <a 
+        [href]="'https://t.me/share/url?url=' + product.link"
+        target="_blank"
+        class="telegram">
+        Telegram
+      </a>
+    </div>
+
+    <!-- Like -->
+<button (click)="like()" class="like-btn">
+  Like ({{ product.likes }})
+</button>
+
+<!-- Delete -->
+<button (click)="deleteProduct()" class="delete-btn">
+  Delete
+</button>
+  
+  </div>

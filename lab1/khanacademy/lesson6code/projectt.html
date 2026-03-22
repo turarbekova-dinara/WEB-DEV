@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Life</title>
+
+    <style>
+        body{
+            background-color: rgb(230, 240, 250);
+            margin: 0;
+            font-family: Arial;
+            color: rgb(40, 60, 90);
+        }
+
+        nav{
+            background-color: rgb(70, 120, 180);
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a{
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        h1{
+            text-align: center;
+            margin: 20px;
+        }
+
+        .card{
+            background-color: white;
+            width: 260px;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .card img{
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        button{
+            background-color: rgb(70, 120, 180);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        section{
+            margin: 40px 10%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#study">Study</a>
+        <a href="#friends">Friends</a>
+        <a href="#future">Future</a>
+    </nav>
+
+    <h1>Student Life at University</h1>
+
+    <section style="display:flex; justify-content:center; flex-wrap:wrap;">
+        <div class="card">
+            <img src="https://irisreading-media.s3-accelerate.amazonaws.com/2023/06/Reasons-You-Find-It-Hard-to-Study.jpg">
+            <p><strong>Study</strong><br>Learning new skills</p>
+            <a href="#study"><button>Read more</button></a>
+        </div>
+
+        <div class="card">
+            <img src="https://media.glamour.com/photos/5ebd7bfdff61267e6b09e86c/master/pass/friends.jpg">
+            <p><strong>Friends</strong><br>Meeting new people</p>
+            <a href="#friends"><button>Read more</button></a>
+        </div>
+
+        <div class="card">
+            <img src="https://www.myes.school/wp-content/uploads/2024/05/shutterstock_588174734-1-1.jpg">
+            <p><strong>Future</strong><br>Building career</p>
+            <a href="#future"><button>Read more</button></a>
+        </div>
+    </section>
+
+    <section id="study">
+        <h2>Study</h2>
+        <p>University helps students gain professional knowledge.</p>
+    </section>
+
+    <section id="friends">
+        <h2>Friends</h2>
+        <p>Student life is full of communication and teamwork.</p>
+    </section>
+
+    <section id="future">
+        <h2>Future</h2>
+        <p>Education is the foundation of a successful future.</p>
+    </section>
+
+</body>
+</html>
